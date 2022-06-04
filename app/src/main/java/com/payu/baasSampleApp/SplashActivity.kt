@@ -15,9 +15,11 @@ open class SplashActivity : BaseActivity() {
         setupNextScreen()
     }
     private fun setupNextScreen() {
+
         //From here we launch our UI SDK
         SDKLauncher().launch(this)
         finish()
+
     }
 
 
